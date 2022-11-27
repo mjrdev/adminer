@@ -9,9 +9,11 @@ function App() {
 
   return (
     <div className="App w-[100vw]">
-      <Header />
       <Menu />
-      <Footer />
+      <div className='ml-[10rem]'>
+        <Header />
+        <Footer />
+      </div>
     </div>
   )
 }
